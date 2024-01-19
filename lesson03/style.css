@@ -1,0 +1,126 @@
+body {
+    margin-left: 19%;
+    margin-right: 19%;
+    background-color: #FFFFFF;
+}
+
+.header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.right__menu {
+    text-align: right;
+    width: 100%;
+}
+
+.right__menu.chevron {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
+    height: 6pt;
+    width: 6pt;
+    display: inline-block;
+}
+
+.right__menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 14pt;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
+
+.right__menu a:hover {
+    color: #F25822;
+}
+
+.first-level {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.first-level li {
+    display: inline;
+}
+
+.first-level li:hover>ul {
+    display: block;
+}
+
+.second-level {
+    position: absolute;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background: #FFFFFF;
+}
+
+.second-level li {
+    display: inline;
+}
+
+.second-level>li {
+    position: relative;
+}
+
+.top__content {
+    display: inline-flexbox;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.top__content img {
+    float: right;
+}
+
+.top__content h1 {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60pt;
+    font-style: bold;
+    line-height: 120%;
+}
+
+.top__content p {
+    color: #888888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    line-height: 140%;
+}
+
+.top__content button {
+    background-color: #FFFFFF;
+    color: #888888;
+    border: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 140px;
+    border-radius: 140px;
+}
+
+.top__content button:hover {
+    background-color: #F25822;
+    color: #FFFFFF;
+}
+
+.footer {
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer img {
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
