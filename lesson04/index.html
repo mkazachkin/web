@@ -5,40 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>GrowBe | Official site</title>
     <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <!-- <div class="logo">
-            <a href="">
-                <img src="img/logo.png">
-            </a>
-        </div> -->
-        <div class="right__menu">
-            <nav>
-                <ul class="first-level">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li>
-                        <a href="#">Features <span class="right__menu chevron"></span></a>
-                        <ul class="second-level">
-                            <li><a href="#">Feature&nbsp;1</a></li>
-                            <li><a href="#">Feature&nbsp;2</a></li>
-                            <li><a href="#">Feature&nbsp;3</a></li>
-                            <li><a href="#">Feature&nbsp;4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <nav id="navigation">
+        <ul class="nav-links">
+            <li class="logo"><a href="./"><img src="img/logo.png"></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About&nbsp;Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Features <img class="chevron" src="img/chevron.svg"></a>
+                <div class="dropdown-content">
+                    <a href="#">Feature&nbsp;1</a>
+                    <a href="#">Feature&nbsp;2</a>
+                    <a href="#">Feature&nbsp;3</a>
+                    <a href="#">Feature&nbsp;4</a>
+                </div>
+            </li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <div class="top__content">
         <img src="img/mainpage.png">
         <div class="top__info">

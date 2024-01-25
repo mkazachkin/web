@@ -1,0 +1,144 @@
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth
+    }
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 19%;
+    margin-right: 19%;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+}
+
+.chevron {
+    padding-bottom: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    float: right;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #F25822;
+    color: #FFFFFF;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #AAAAAA;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.top__content {
+    display: inline-block;
+    margin: 2.5% 0;
+    width: 100%;
+    vertical-align: text-top;
+}
+
+.top__content img {
+    float: right;
+    margin-left: 2.5%;
+}
+
+.top__content h1 {
+    color: #000000;
+    font-size: 40pt;
+    font-style: bold;
+    line-height: 120%;
+}
+
+.top__content p {
+    color: #888888;
+    font-size: 18pt;
+    font-style: normal;
+    line-height: 140%;
+}
+
+.top__content button {
+    font-size: 12pt;
+    background-color: #FFFFFF;
+    color: #888888;
+    border: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 140px;
+    border-radius: 140px;
+}
+
+.top__content button:hover {
+    background-color: #F25822;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: inline-block;
+    margin: 2.5% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer img {
+    margin: 0 1.25%;
+}
