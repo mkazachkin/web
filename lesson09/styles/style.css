@@ -461,7 +461,7 @@ body {
         grid-template-columns: 740px;
         grid-template-rows: 120px;
         justify-content: space-around;
-        margin: 0 5px;
+        margin: 12px 5px;
     }
 
     .featured__items img {
