@@ -577,4 +577,12 @@ body {
     .footer__menu {
         margin-bottom: 21px;
     }
+
+    .input_line_button {
+        width: 100px;
+    }
+
+    .box_input {
+        width: 156px;
+    }
 }
